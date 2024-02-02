@@ -7,9 +7,9 @@ ENV NEO4J_AUTH="neo4j/passw0rd"
 ENV NEO4J_dbms_connector_bolt_listen__address="0.0.0.0:7687"
 ENV NEO4J_dbms_connector_http_listen__address="0.0.0.0:7474"
 ENV NEO4J_dbms.security.procedures.unrestricted="gds.*"
-ENV server.memory.heap.initial_size="100m"
-ENV server.memory.heap.max_size="100m"
-ENV server.memory.pagecache.size="100m"
+ENV NEO4J_dbms_memory_heap_initial_size="100m"
+ENV NEO4J_dbms_memory_heap_max_size="100m"
+ENV NEO4J_dbms_memory_pagecache_size="100m"
 
 # Expose necessary ports
 EXPOSE 7474 7687
