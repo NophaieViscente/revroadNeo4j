@@ -1,5 +1,5 @@
 # Use the official Neo4j image
-FROM neo4j:4.4.9-enterprise
+FROM neo4j:latest
 
 # Set environment variables
 ENV NEO4J_ACCEPT_LICENSE_AGREEMENT="yes"
